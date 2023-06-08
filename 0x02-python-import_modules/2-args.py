@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("1 argument:")
         print(f"1: {sys.argv[1]}")
     else:
-        print(f"{len(sys.argv)} arguments")
+        print(f"{len(sys.argv)-1} arguments")
         while n <= len(sys.argv): 
             print(f"{n-1}: {sys.argv[n-1]}")
             n += 1
