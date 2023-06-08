@@ -5,7 +5,7 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
 
     argc = len(argv)
-    
+
     if argc == 4:
         if argv[2] == "+":
             print("{} {} {} = {}".format(argv[1], argv[2], argv[3], add(int(argv[1]), int(argv[3]))))
